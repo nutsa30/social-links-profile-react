@@ -1,0 +1,87 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", serif;
+  background-color: hsl(0, 0%, 8%);
+}
+
+
+
+
+.profileCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px;
+ 
+  
+
+}
+
+img{
+
+  border-radius: 100px;
+  margin: 30px;
+}
+
+
+.heading{
+  
+  color: hsl(0, 0%, 100%);
+  
+}
+
+.subHeading{
+
+  margin-top: auto;
+  color: hsl(75, 94%, 57%);
+
+}
+
+.p{
+  text-align: center;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
+
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 30px;
+  
+}
+
+.btn{
+ 
+  font-weight: bold;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  margin: 8px;
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+}
+
+
+
+@media (max-width: 375px) {
+  .profileCard,
+  .buttons,
+  .h1,
+  .h4,
+  .p{
+      width: 80%;
+  }
+ 
+  .p{
+      width: auto;
+  }
+}
